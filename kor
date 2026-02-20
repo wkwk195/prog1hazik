@@ -1,0 +1,21 @@
+#include <stdio.h>
+#include <math.h>
+
+int main() {
+    double sugar;
+    double kerulet, terulet;
+
+    printf("Kerem, adja meg a kor sugarat: ");
+    scanf("%lf", &sugar);
+        
+
+    kerulet = 2 * sugar * M_PI;
+    terulet = sugar * sugar * M_PI;
+
+    
+    printf("Eredmenyek: \n");
+    printf("A kor kerulete: %.2f egyseg\n", kerulet);
+    printf("A kor terulete: %.2f negyzetegyseg\n", terulet);
+
+    return 0;
+}
